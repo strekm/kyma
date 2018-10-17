@@ -14,7 +14,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: cluster-certificate-overrides
-  namespace: kyma-installer:mst
+  namespace: kyma-installer
   labels:
     installer: overrides
 data:
